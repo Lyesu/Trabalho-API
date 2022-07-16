@@ -1,0 +1,66 @@
+.title {
+  color: red;
+  text-align: center;
+}
+
+:root{
+  --primary-color: #FFBA00;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.titles{
+  text-align: center;
+  background-color: var( --primary-color);
+  height: 70px;
+  line-height: 70px;
+  box-shadow: 0 1px 2px #CCC;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'karla', sans-serif;
+  position:relative;
+}
+
+.sobre{
+  background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: 5vh auto;
+    padding: 30px;
+    box-shadow: 2px 2px 10px ;
+    gap: 20px;
+}
+
+img{
+  left: 950px;
+  height: 300px;
+
+
+}
+.foto2{
+  margin-left: 444px;
+}
+
+
+
+.contatos{
+  background-color: aqua;
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: 5vh auto;
+    padding: 30px;
+    box-shadow: 2px 2px 10px ;
+    gap: 20px;
+}
